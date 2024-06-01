@@ -1,0 +1,185 @@
+.module {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.module:hover {
+  transform: translateY(-3px);
+}
+
+.module h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  cursor: pointer;
+}
+
+.module h2:hover {
+  color: #974f5b;
+}
+
+.module-options {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.module button {
+  float: right;
+  margin-bottom: 0px 0px 0px;
+}
+
+.module-options button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  float: right;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.module-options button:hover {
+  background-color: #ddd;
+}
+
+.options {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  visibility: visible;
+}
+
+.options button {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #dc143c;
+  text-align: center;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.options button:hover {
+  background-color: #c11235;
+}
+
+.resource {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #f4f4f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resource a:hover {
+  text-decoration: underline;
+}
+
+.resource .resource-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.resource button {
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  padding: 0 5px;
+  transition: color 0.3s;
+}
+
+.resource button:hover {
+  color: #333;
+}
+
+.resource .delete-button {
+  color: #ff6666;
+}
+
+.resource .delete-button:hover {
+  color: #ff3333;
+}
+
+.resource .download-button {
+  color: #66b3ff;
+}
+
+.resource .download-button:hover {
+  color: #3399ff;
+}
+
+.resource .rename-button {
+  color: #2b8a2b;
+}
+
+.resource .rename-button:hover {
+  color: #269826;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 95%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="file"]:focus {
+  outline: none;
+  border-color: #007bff;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+button {
+  background-color: #344955;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.redadd {
+  background-color: #50727b;
+}
